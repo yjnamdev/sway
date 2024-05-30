@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+}
+
+.grid_Desktop {
+    width: 100%;
+    height: 1880px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.page-viewport {
+    width: 100%;
+    height: 1880px;
+    background: rgba(251, 251, 253, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+/*  .landing-page-sway-plane
+    .v128_76 {
+    width: 397px;
+    height: 516px;
+    background: url("../images/v128_76.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 59px;
+    left: 521px;
+    overflow: hidden;
+} */
+
+.cloud {
+    width: 397px;
+    height: 358.22px;
+    background: url("./Sway_files/cloud.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: -15px;
+    left: calc(50% - 397px/2);
+    overflow: hidden;
+}
+
+.v27_5 {
+    width: 397px;
+    height: 358px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    overflow: hidden;
+}
+
+span.icon.icon-after.more::after,
+.icon-after:after,
+.more:after {
+    top: -0.08em;
+}
+
+.icon-wrapper .icon,
+.icon-wrapper .more::after,
+.icon-wrapper .icon-before::before,
+.icon-wrapper .icon-after::after,
+.icon-wrapper .more:not(.icon-before):after {
+    position: relative;
+}
+
+.icon-wrapper .icon,
+.icon-wrapper .icon-after:after,
+.icon-wrapper .icon-before:before,
+.icon-wrapper .more:not(.icon-before):after {
+    display: inline;
+    position: static;
+}
+
+.more:after,
+.more:before {
+    content: "";
+}
+
+.icon-after:after,
+.more:after {
+    padding-left: 0.3em;
+    top: 0;
+}
+
+.icon:after,
+.icon:before,
+.more:after,
+.more:before {
+    font-family: SF Pro Icons;
+    color: inherit;
+    display: inline-block;
+    font-style: normal;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: 1;
+    text-decoration: underline;
+    position: relative;
+    z-index: 1;
+    alt: "";
+    text-decoration: none;
+}
+
+:lang(ko) {
+    word-break: keep-all;
+}
+
+:lang(ko) {
+    font-style: normal;
+}
+
+a.icon-wrapper {
+    text-decoration: none;
+}
+
+.link:link,
+.link:visited,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+.link,
+a {
+    color: #06c;
+    letter-spacing: inherit;
+}
+
+.typography-endcap-link:lang(ko) {
+    line-height: 1.3529611765;
+    letter-spacing: 0em;
+}
+
+.typography-endcap-link:lang(ko) {
+    font-family: SF Pro KR, SF Pro Text, SF Pro Icons, Apple Gothic, HY Gulim, MalgunGothic, HY Dotum, Lexi Gulim, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.typography-endcap-link {
+    font-size: 17px;
+    line-height: 1.2353641176;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.section-endcap .tile-variant-tall {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 480px;
+    text-align: center;
+}
+
+
+
+/* 나는 모르겠다
+
+
+.icon,
+.icon-after,
+.more::after {
+    content: "\f054";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.icon:after,
+.more:after {
+    font-family: SF Pro Icons;
+    color: inherit;
+    display: inline-block;
+    font-style: normal;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: 1;
+    text-decoration: underline;
+    position: relative;
+    z-index: 1;
+    alt: "";
+    text-decoration: none
+}
+
+.icon-after:after,
+.more:after {
+    padding-left: 0.3em;
+    top: 0
+}
+
+.more:after {
+    content: ""
+}
+
+.icon-wrapper .icon,
+.icon-wrapper .icon-after:after,
+.icon-wrapper .icon-before:before,
+.icon-wrapper .more:not(.icon-before):after {
+    display: inline;
+    position: static
+}
+
+a.icon-wrapper {
+    text-decoration: none
+}
+
+a.icon-wrapper:hover .icon-copy {
+    text-decoration: underline
+} */
+
+
+/* .icon-chevronright:after,
+.icon-chevronright:before {
+    content: ""
+} */
+
+/* motion
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 397px;
+height: 358px;
+left: calc(50% - 397px/2);
+top: 0px;
+
+border: 1px solid #000000; */
