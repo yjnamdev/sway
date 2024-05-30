@@ -1,0 +1,863 @@
+/*SF Pro Display*/
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 100;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-Ultralight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 100;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-UltralightItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 200;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 200;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-ThinItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 300;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 300;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 400;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-RegularItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 500;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-MediumItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-Semibold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 600;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-SemiboldItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: italic;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 800;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-Heavy.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 800;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-HeavyItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 900;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 900;
+    src: url("./Sway_files/Fonts/SF-Pro-Display-BlackItalic.otf") format("opentype");
+}
+
+
+/*SF Pro Text*/
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 100;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-Ultralight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 100;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-UltralightItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 200;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 200;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-ThinItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 300;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 300;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 400;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-RegularItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 500;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-MediumItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-Semibold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 600;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-SemiboldItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 700;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 800;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-Heavy.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 800;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-HeavyItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 900;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-style: italic;
+    font-weight: 900;
+    src: url("./Sway_files/Fonts/SF-Pro-Text-BlackItalic.otf") format("opentype");
+}
+
+
+/*Apple SD Gothic Neo*/
+
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 100;
+    src: url("./Sway_files/Fonts/AppleSDGothicNeo-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 200;
+    src: url("./Sway_files/Fonts/AppleSDGothicNeo-UltraLight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 300;
+    src: url("./Sway_files/Fonts/AppleSDGothicNeo-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 400;
+    src: url("./Sway_files/Fonts/AppleSDGothicNeo-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 500;
+    src: url("./Sway_files/Fonts/AppleSDGothicNeo-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 600;
+    src: url("./Sway_files/Fonts/AppleSDGothicNeo-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 700;
+    src: url("./Sway_files/Fonts/AppleSDGothicNeo-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 800;
+    src: url("./Sway_files/Fonts/AppleSDGothicNeo-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 900;
+    src: url("./Sway_files/Fonts/AppleSDGothicNeo-Heavy.otf") format("opentype");
+}
+
+:lang(ko) {
+    word-break: keep-all;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.grid_Desktop {
+    /* grid_Desktop */
+
+    width: 100%;
+    height: 1880px;
+    background: #FFFFFF;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.page-viewport {
+    /* div.page-viewport */
+
+    width: 100%;
+    height: 1880px;
+    background: #FBFBFD;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+.page-content {
+    /* div.page-content */
+
+    width: 100%;
+    height: 1880px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+.landing-page {
+    /* div.landing-page */
+
+    height: 1880px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+
+}
+
+.landing-page-sway-hero {
+    /* div.landing-page-sway-hero */
+
+    width: 397px;
+    height: 516px;
+    position: absolute;
+    top: 59px;
+    left: calc(50% - 397px/2 - 0.5px);
+
+}
+
+.leaves {
+    /* motion */
+
+    box-sizing: border-box;
+
+    width: 399px;
+    height: 360px;
+    position: absolute;
+    left: calc(50% - 397px/2);
+    top: 0px;
+
+    /* border: 1px solid #000000; */
+}
+
+.img {
+    width: auto;
+    aspect-ratio: auto 430 / 388;
+    height: 100%;
+    position: absolute;
+    left: calc(50% - 397px/2);
+    top: -15px;
+}
+
+h1 {
+    /* Sway */
+    display: block;
+
+    width: 334px;
+    height: 167px;
+    position: absolute;
+    top: 349px;
+    left: calc(50% - 334px/2 + 0.5px);
+
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 140px;
+    line-height: 167px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.landing-page-content {
+    /* div.landing-page-content */
+
+    position: absolute;
+    width: 277px;
+    height: 167px;
+    top: 601px;
+    left: calc(50% - 277px/2 - 0.5px);
+
+    text-align: center;
+}
+
+/* ui-button.push.primary.subscribe-button {
+    margin-top: 0;
+    height: 44px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #000;
+    color: #fff;
+    border-radius: 22px;
+    padding-inline: 30px;
+    margin-inline: auto;
+    -webkit-margin-before: 0;
+    margin-block-start: 0;
+    block-size: 44px;
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+} */
+
+.subscribe-button {
+    /* ui-button */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 23px;
+    gap: 8px;
+
+    position: absolute;
+    width: 112px;
+    height: 44px;
+    left: calc(50% - 112px/2 + 0.5px);
+    top: 0px;
+
+    background: #000000;
+    border: 0;
+    border-radius: 999px;
+
+    /* 구독하기 */
+
+    /* width: 66px;
+    height: 14px; */
+
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+
+    leading-trim: both;
+    text-edge: cap;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.subscribe-button:hover {
+    cursor: pointer;
+}
+
+h2 {
+    /* 여행 전 확인 사항, 모두 여기에. */
+
+    position: absolute;
+    width: 277px;
+    height: 75px;
+    top: 92px;
+    left: calc(50% - 277px/2);
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 47px;
+
+    leading-trim: both;
+    text-edge: cap;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1D1D1F;
+}
+
+.section {
+    /* div.landing-page-section */
+
+    position: absolute;
+    height: 900px;
+    top: 900px;
+    left: 0px;
+    right: 0px;
+
+    background: #FFFFFF;
+}
+
+.section-content {
+    /* div.section-content */
+
+    position: absolute;
+    width: 980px;
+    height: 734px;
+    top: 80px;
+    left: calc(50% - 980px/2);
+}
+
+.section-header {
+    /* h3.section-headline */
+
+    position: absolute;
+    width: 980px;
+    height: 132px;
+    top: 3px;
+    left: 0px;
+}
+
+h3 {
+    /* 더 나은 여행을 위한 설계. */
+
+    position: absolute;
+    /* width: 348px;
+    height: 131px; */
+    width: 490px;
+    height: 132px;
+    left: 0px;
+    top: 1px;
+    margin-right: 490px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 66px;
+    /* or 129% */
+
+    display: block;
+    align-items: center;
+
+    color: #1D1D1F;
+}
+
+.section-endcap .grid-maxwidth {
+    max-width: 1440px;
+    padding: 0;
+}
+
+/* .section-endcap .grid {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+} */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-rows: 512px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+    margin-top: 222px;
+    margin-left: calc(50% - 980px/2);
+    margin-right: calc(50% - 980px/2);
+}
+
+.grid>div {
+    background-color: #F5F5F7;
+    border: 0;
+    border-radius: 18px;
+}
+
+.tile {
+    /* 타일 틀 */
+
+    position: relative;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.tile-content {
+    /* 타일 상단 틀 */
+
+    position: absolute;
+    width: 313.33px;
+    height: 272px;
+    top: 0px;
+    left: 0px;
+}
+
+.image-icon-issue {
+    /* 지도 아이콘 */
+
+    position: absolute;
+    width: 34px;
+    height: 32px;
+    top: 67px;
+    left: calc(50% - 34px/2 - 0.66px);
+
+    margin: auto;
+}
+
+.image-icon-baggage {
+    /* 비행기 아이콘 */
+
+    position: absolute;
+    width: 39px;
+    height: 36px;
+    top: 63px;
+    left: calc(50% - 39px/2 - 0.49px);
+}
+
+.image-icon-visa {
+    /* 손쉬운 사용 아이콘 */
+
+    position: absolute;
+    width: 34px;
+    height: 40px;
+    top: 61px;
+    left: calc(50% - 34px/2 - 0.33px);
+}
+
+h4 {
+    /* 서브 타이틀 */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    width: 225px;
+    height: 72px;
+    top: 119px;
+    left: calc(50% - 225px/2);
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0.196px;
+    text-align: center;
+}
+
+p {
+    /* 알아보기 */
+    display: block;
+
+    position: absolute;
+    width: 280px;
+    height: 46px;
+    top: 197px;
+    left: calc(50% - 280px/2);
+    margin-top: 6px;
+
+    font-family: 'Apple SD Gothic Neo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.6px;
+    line-height: 23px;
+    line-height: 1.3529611765;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+a {
+    /* 하이퍼링크 */
+    text-decoration-line: none;
+    color: #0066CC;
+}
+
+.icon-copy:hover {
+    /* 마우스 올렸을 때 */
+    text-decoration-line: underline;
+}
+
+.icon::after {
+    /* chevron-right */
+
+    display: inline;
+    position: relative;
+    top: -0.19em;
+    padding-left: 5px;
+
+    content: "\f054";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 8.81px;
+}
+
+.image-issue {
+    /* 지구 사진 */
+
+    position: absolute;
+    width: 313px;
+    height: 249px;
+    top: 263px;
+    left: calc(50% - 313px/2 + 0.84px);
+    border-radius: 18px;
+}
+
+.image-baggage {
+    /* 캐리어 사진 */
+
+    position: absolute;
+    width: 234px;
+    height: 232px;
+    top: 280px;
+    left: calc(50% - 234px/2 - 0.99px);
+}
+
+.image-visa {
+    /* 여권 사진 */
+
+    position: absolute;
+    width: 142px;
+    height: 201px;
+    top: 279px;
+    left: calc(50% - 142px/2 + 0.67px);
+}
+
+
+.warning-footer {
+    /* div.warning-footer */
+
+    width: 100%;
+    height: 80px;
+    background: #F5F5F7;
+    position: absolute;
+    /* top: 1800px; */
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
+
+.warning-footer-content {
+    /* div.warning-footer-content */
+
+    width: 1035px;
+    height: 22px;
+    position: absolute;
+    top: 29px;
+    left: calc(50% - 1035px/2 - 0.5px);
+    overflow: hidden;
+}
+
+.warning {
+    /* 상황에 따른 변동으로 인해 해당 정보들은 정확하지 않을 수 있습니다. */
+
+    width: 315px;
+    height: 22px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 22px;
+    /* identical to box height, or 200% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #424245;
+}
+
+.copyright {
+    /* Copyright © 2023 Sway Inc. All rights reserved. */
+
+    width: 247px;
+    height: 22px;
+    position: absolute;
+    top: -1px;
+    right: 0px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 22px;
+    /* identical to box height, or 200% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #6E6E73;
+}
