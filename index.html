@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.25, minimum-scale=0.5, user-scalable=yes" />
+    <meta name="theme-color" content="rgb(251,251,253)" content="default">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Sway</title>
+</head>
+
+<body>
+    <script src="main.js"></script>
+
+    <div>
+        <ui-main-pane>
+            <div class="root-viewport">
+                <div class="root-component">
+                    <div class="page-viewport landing-page-route fade-in">
+                        <div class="page-content">
+                            <main>
+                                <div class="landing-page">
+                                    <div class="hero-wrapper">
+                                        <div class="sway-animated-hero">
+                                            <video src="영상 주소 넣기" width="430" height="388" autoplay playsinline
+                                                x-webkit-airplay="deny" title="나뭇잎이 비행기로 변했다가 나뭇잎으로 돌아오는 애니메이션"></video>
+                                        </div>
+                                        <div class="landing-page-sway-hero">
+                                            <div class="leaves">
+                                                <img src="./Sway_files/leaf_medium.png"
+                                                    srcset="./Sway_files/leaf_small.png, ./Sway_files/leaf_medium.png 2x, ./Sway_files/leaf_large.png 3x"
+                                                    width="399" height="360" alt aria-hidden="true">
+                                            </div>
+                                            <h1>Sway</h1>
+                                        </div>
+                                    </div>
+                                    <div class="landing-page-content">
+                                        <!-- <ui-button class="push primary subscribe-button" tabindex="0"
+                                            ontouchstart="void(0)" role="button" aria-haspopup="false">
+                                            <button type="button" tabindex="-1"></button>
+                                            구독하기
+                                        </ui-button> -->
+                                        <button class="subscribe-button" tabindex="0" ontouchstart="void(0)"
+                                            role="button" aria-haspopup="false">
+                                            구독하기
+                                        </button>
+                                        <h2 class="description">여행 전 확인 사항, 모두 여기에.</h2>
+                                    </div>
+                                    <section class="section section-only-sway section-endcap"
+                                        data-analytics-section-engagement="name:only sway">
+                                        <div class="section-content">
+                                            <div class="section-header">
+                                                <h3
+                                                    class="section-headline typography-site-header-2 large-6 medium-7 small-12">
+                                                    더&nbsp;나은
+                                                    <br>
+                                                    <!-- <br class="large">
+                                                    <br class="medium">
+                                                    <br class="xsmall"> -->
+                                                    여행을 위한 설계.
+                                                </h3>
+                                            </div>
+                                            <div class="grid grid-maxwidth">
+                                                <div
+                                                    class="grid-item grid-item-issue large-span-4 medium-span-6 small-span-12">
+                                                    <div class="tile">
+                                                        <div class="tile-content">
+                                                            <figure class="image-icon-issue"
+                                                                data-anim-lazy-image-download-complete>
+                                                                <img src="./Sway_files/map.svg" width="34" height="32"
+                                                                    alt aria-hidden="true">
+                                                            </figure>
+                                                            <h4 class="endcap-headline typography-endcap-headline">
+                                                                알아두면 요긴한
+                                                                <br>
+                                                                여행경보제도.
+                                                            </h4>
+                                                            <p class="typography-endcap-link">
+                                                                <a href="https://www.0404.go.kr/dev/main.mofa"
+                                                                    data-analytics-title="learn more - issue"
+                                                                    class="icon-wrapper">
+                                                                    <span class="icon-copy">외교부가 운영하는
+                                                                        '여행경보제도'<br>알아보기</span><span
+                                                                        class="icon icon-after more"></span>
+                                                                </a>
+                                                            </p>
+                                                        </div>
+                                                        <figure class="image-issue"
+                                                            data-anim-lazy-image-download-complete>
+                                                            <img src="./Sway_files/earth_warning.png" width="313"
+                                                                height="249" alt aria-hidden="true">
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="grid-item grid-item-baggage large-span-4 medium-span-6 small-span-12">
+                                                    <div class="tile">
+                                                        <div class="tile-content">
+                                                            <figure class="image-icon-baggage"
+                                                                data-anim-lazy-image-download-complete>
+                                                                <img src="./Sway_files/airplane.svg" width="39"
+                                                                    height="36" alt aria-hidden="true">
+                                                            </figure>
+                                                            <h4 class="endcap-headline typography-endcap-headline">
+                                                                안전한 항공여행.
+                                                                <br>
+                                                                수하물 규정에서 시작.
+                                                            </h4>
+                                                            <p class="typography-endcap-link">
+                                                                <a href="https://www.koreanair.com/kr/ko/airport/baggage/restricted-items/checked"
+                                                                    data-analytics-title="learn more - baggage"
+                                                                    class="icon-wrapper">
+                                                                    <span class="icon-copy">항공기 운송 제한
+                                                                        물품<br>알아보기</span><span
+                                                                        class="icon icon-after more"></span>
+                                                                </a>
+                                                            </p>
+                                                        </div>
+                                                        <figure class="image-baggage"
+                                                            data-anim-lazy-image-download-complete>
+                                                            <img src="./Sway_files/baggage.png" width="234" height="232"
+                                                                alt aria-hidden="true">
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="grid-item grid-item-visa large-span-4 medium-span-6 small-span-12">
+                                                    <div class="tile">
+                                                        <div class="tile-content">
+                                                            <figure class="image-icon-visa"
+                                                                data-anim-lazy-image-download-complete="">
+                                                                <img src="./Sway_files/icon_accessibility.png"
+                                                                    width="34" height="40" alt aria-hidden="true">
+                                                            </figure>
+                                                            <h4 class="endcap-headline typography-endcap-headline">
+                                                                모두를 위한
+                                                                <br>
+                                                                VISA.
+                                                            </h4>
+                                                            <p class="typography-endcap-link">
+                                                                <a href="https://www.0404.go.kr/consulate/visa.jsp"
+                                                                    data-analytics-title="learn more - visa"
+                                                                    class="icon-wrapper">
+                                                                    <span class="icon-copy">해외 입국에 필요한
+                                                                        비자(사증)<br>알아보기</span><span
+                                                                        class="icon icon-after more"></span>
+                                                                </a>
+                                                            </p>
+                                                        </div>
+                                                        <figure class="image-visa"
+                                                            data-anim-lazy-image-download-complete="">
+                                                            <img src="./Sway_files/passport.png" width="142"
+                                                                height="201" alt aria-hidden="true">
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                            </main>
+                            <footer>
+                                <div class="warning-footer">
+                                    <div class="application-content">
+                                        <div class="warning-footer-content">
+                                            <div class="inner-row" role="presentation">
+                                                <span class="warning" role="presentation">상황에 따른 변동으로 인해 해당 정보들은 정확하지 않을
+                                                    수
+                                                    있습니다.</span>
+                                            </div>
+                                            <div class="inner-row" role="presentation">
+                                                <span class="copyright">Copyright © 2023 Sway Inc. All rights
+                                                    reserved.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ui-main-pane>
+    </div>
+</body>
+
+</html>
