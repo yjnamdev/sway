@@ -456,29 +456,6 @@ h1 {
     text-align: center;
 }
 
-/* ui-button.push.primary.subscribe-button {
-    margin-top: 0;
-    height: 44px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: auto;
-    margin-right: auto;
-
-    background-color: #000;
-    color: #fff;
-    border-radius: 22px;
-    padding-inline: 30px;
-    margin-inline: auto;
-    -webkit-margin-before: 0;
-    margin-block-start: 0;
-    block-size: 44px;
-    font-family: 'Apple SD Gothic Neo';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 23px;
-} */
-
 .subscribe-button {
     /* ui-button */
 
@@ -616,11 +593,6 @@ h3 {
     max-width: 1440px;
     padding: 0;
 }
-
-/* .section-endcap .grid {
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-} */
 
 .grid {
     display: grid;
